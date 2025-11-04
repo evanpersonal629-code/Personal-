@@ -410,3 +410,13 @@ main {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 188, 212, 0.3);
 }
+/* Gaya khusus untuk tombol CONTACT */
+nav a[href="contact.html"] {
+    background-color: #4caf50; /* Hijau segar */
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+nav a[href="contact.html"]:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.7);
+}
